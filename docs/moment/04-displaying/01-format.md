@@ -11,9 +11,9 @@ This is the most robust display option. It takes a string of tokens and replaces
 
 ```javascript
 moment().format();                                // "2014-09-08T08:02:17-05:00" (ISO 8601, no fractional seconds)
-moment().format("dddd, MMMM Do YYYY, h:mm:ss a"); // "Sunday, February 14th 2010, 3:25:50 pm"
+moment().format("dddd, MMMM Do YYYY, h:mm:ss a"); // "Søndag, februar den 14. 2010, kl. 03:25:50."
 moment().format("ddd, hA");                       // "Sun, 3PM"
-moment().format("[Today is] dddd");               // "Today is Sunday"
+moment().format("[I dag er det den] dddd");               // "I dag er det søndag."
 moment('gibberish').format('YYYY MM DD');         // "Invalid date"
 ```
 
